@@ -3,8 +3,8 @@ A fixed point integer math library for Solidity
 ## Introduction
 Fixed Library is an expanded int256 fixed point integer library buildt off Cement Dao's Fixidity. Fixedlibrary offers new implementation
 of hyperbolic and trigonometric functions that work with fixed points integers, along with bug fixes and further testing. The goal of FixedLibrary
-is to provide the mathematical tools needed for higher precison computations through decimal emulation. Building on top of Cement Dao's Fixidity we were
-able to protection against overflowing while offering int256 fixed point integers allowing numbers up to 10^55 to be computed
+is to provide the mathematical tools needed for higher precison computations through decimal emulation. Building on top of Cement Dao's Fixidity I was
+able to protect against int-overflow while offering int256 fixed point integers allowing numbers up to 10^55 to be computed
 
 A set of common constants have been added to make working with irrational numbers simpler.
 
